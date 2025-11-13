@@ -53,7 +53,7 @@ const ForWhoIs = () => {
             viewport={{ once: true }}
           >
             <motion.img
-              src="/images/IMG_1485.png"
+              src="/images/IMG_1485.PNG"
               alt="Leanova na mão"
               className="w-full max-w-[600px] lg:max-w-[700px] mx-auto relative z-10"
               loading="lazy"
