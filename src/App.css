@@ -1,0 +1,13 @@
+/* Reset simples para não interferir no layout da landing */
+/* Deixa o controle total para Tailwind + componentes */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}

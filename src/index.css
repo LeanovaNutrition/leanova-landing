@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 340 100% 97%;
+    --foreground: 340 10% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 340 10% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 340 10% 10%;
+
+    --primary: 340 82% 52%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 340 100% 95%;
+    --secondary-foreground: 340 82% 52%;
+
+    --muted: 340 20% 96%;
+    --muted-foreground: 340 10% 45%;
+
+    --accent: 75 60% 55%;
+    --accent-foreground: 340 10% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 340 20% 90%;
+    --input: 340 20% 90%;
+    --ring: 340 82% 52%;
+
+    --radius: 1rem;
+
+    --gradient-primary: linear-gradient(
+      135deg,
+      hsl(340 82% 52%),
+      hsl(340 90% 60%)
+    );
+
+    --gradient-accent: linear-gradient(
+      135deg,
+      hsl(75 60% 55%),
+      hsl(75 70% 60%)
+    );
+
+    --gradient-background: linear-gradient(
+      180deg,
+      hsl(340 100% 97%),
+      hsl(340 100% 99%)
+    );
+
+    --shadow-card: 0 4px 20px hsla(340, 82%, 52%, 0.1);
+    --shadow-hover: 0 8px 30px hsla(340, 82%, 52%, 0.2);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 340 20% 8%;
+    --foreground: 340 10% 95%;
+
+    --card: 340 20% 10%;
+    --card-foreground: 340 10% 95%;
+
+    --popover: 340 20% 10%;
+    --popover-foreground: 340 10% 95%;
+
+    --primary: 340 82% 52%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 340 30% 15%;
+    --secondary-foreground: 340 10% 95%;
+
+    --muted: 340 30% 15%;
+    --muted-foreground: 340 10% 60%;
+
+    --accent: 75 60% 55%;
+    --accent-foreground: 340 10% 10%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 340 30% 20%;
+    --input: 340 30% 20%;
+    --ring: 340 82% 52%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  #root {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  section {
+    width: 100%;
+  }
+}
