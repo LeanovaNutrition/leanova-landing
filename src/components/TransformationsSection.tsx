@@ -197,14 +197,25 @@ const TransformationsSection = () => {
         </div>
 
         <div className="mt-16 px-4">
-          <Button
-            variant="accent"
-            size="lg"
-            className="w-full sm:w-auto max-w-[90%] sm:max-w-none text-lg py-11 sm:py-6 px-10 sm:px-12 mt-4 text-wrap font-extrabold"
-            onClick={scrollToOffer}
-          >
-            QUERO TAMBÉM TER ESSE TIPO DE TRANSFORMAÇÃO!
-          </Button>
+        <Button
+  variant="accent"
+  size="lg"
+  className="
+    w-full sm:w-auto 
+    max-w-[90%] sm:max-w-none 
+    text-lg 
+    py-11 sm:py-6 
+    px-10 sm:px-12 
+    mt-4 
+    text-wrap 
+    font-extrabold 
+    text-white            
+  "
+  onClick={scrollToOffer}
+>
+  QUERO TAMBÉM TER ESSE TIPO DE TRANSFORMAÇÃO!
+</Button>
+
         </div>
       </div>
     </section>

@@ -123,12 +123,30 @@ Tomando o Leanova 21 Ervas, você emagrecerá com velocidade – enquanto manté
           viewport={{ once: true }}
         >
           <Button
-            className="bg-[#E91E63] hover:bg-[#C2185B] text-white text-xl py-20 sm:py-8 px-12 rounded-full font-black shadow-2xl transition-all hover:scale-105 w-full sm:w-auto max-w-[90%] sm:max-w-none text-wrap"
-            size="lg"
-            onClick={scrollToPricing}
-          >
-            QUERO GARANTIR MEU LEANOVA 21 ERVAS NATURAL!
-          </Button>
+  variant="accent"
+  size="lg"
+  onClick={scrollToPricing}
+  className="
+    inline-flex items-center justify-center
+    px-6 py-7                              
+    sm:px-32 sm:py-14                      
+    rounded-md                             
+    text-xs sm:text-3xl font-extrabold     
+    text-[#E91E63]
+    whitespace-normal leading-snug tracking-tight
+    w-full sm:w-auto
+    max-w-[340px] sm:max-w-[680px]         
+    shadow-[0_8px_0_#B5CC00]               
+    bg-[#CCFF00] hover:bg-[#B8E600]
+    transition-transform hover:scale-105
+  "
+>
+  <span className="block text-center">
+    QUERO GARANTIR MEU <br /> LEANOVA 21 ERVAS NATURAL!
+  </span>
+</Button>
+
+
         </motion.div>
       </div>
     </section>

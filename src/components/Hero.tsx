@@ -107,13 +107,27 @@ const Hero = () => {
 
           <div className="mt-8 flex justify-center lg:justify-start">
             <Button
-              variant="accent"
+  variant="accent"
               size="lg"
-              className="w-full sm:w-auto px-8 py-5 sm:px-12 sm:py-6 rounded-full text-sm sm:text-base md:text-lg font-extrabold tracking-tight shadow-[0_6px_0_#B5CC00]"
+              className="
+    w-full sm:w-auto px-8 py-5 sm:px-12 sm:py-6 
+    rounded-full 
+    text-sm sm:text-base md:text-lg 
+    font-extrabold 
+    tracking-tight 
+    shadow-[0_6px_0_#B5CC00]
+    text-white               /* fonte branca */
+    bg-[#CCFF00]             /* mesma cor de fundo */
+    transition-transform 
+    hover:scale-105          /* mantém só o efeito antigo */
+  "
               onClick={scrollToPricing}
             >
               QUERO GARANTIR MEU CHÁ NATURAL!
             </Button>
+
+
+
           </div>
         </div>
 

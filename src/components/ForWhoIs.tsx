@@ -112,9 +112,24 @@ const ForWhoIs = () => {
                   variant="accent"
                   size="lg"
                   onClick={scrollToPricing}
-                  className="inline-flex items-center justify-center px-10 py-16 sm:px-12 sm:py-7 rounded-full text-base md:text-lg font-extrabold text-[#E91E63] whitespace-normal leading-snug tracking-tight w-full sm:w-auto max-w-[90%] sm:max-w-none shadow-[0_6px_0_#B5CC00] bg-[#CCFF00] hover:bg-[#B8E600] transition-transform hover:scale-105 text-wrap"
+                  className="
+                    inline-flex items-center justify-center
+                    px-6 py-7
+                    sm:px-12 sm:py-7
+                    rounded-xl
+                    text-xs sm:text-lg font-extrabold
+                    text-[#E91E63]
+                    whitespace-normal leading-snug tracking-tight
+                    w-full sm:w-auto
+                    max-w-[340px] sm:max-w-none
+                    shadow-[0_6px_0_#B5CC00]
+                    bg-[#CCFF00] hover:bg-[#B8E600]
+                    transition-transform hover:scale-105
+                  "
                 >
-                  QUERO GARANTIR MEU LEANOVA 21 ERVAS!
+                  <span className="block text-center">
+                    QUERO GARANTIR MEU <br /> LEANOVA 21 ERVAS!
+                  </span>
                 </Button>
               </div>
             </motion.div>

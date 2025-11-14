@@ -95,13 +95,24 @@ const BenefitsSection = () => {
         viewport={{ once: true }}
       >
         <Button
-          variant="accent"
-          size="lg"
-          className="w-full sm:w-auto max-w-[90%] sm:max-w-none text-lg py-7 sm:py-6 px-10 sm:px-12 mt-4 text-wrap font-extrabold"
-          onClick={scrollToOffer}
-        >
-          QUERO GARANTIR MEU CHÁ!
-        </Button>
+  variant="accent"
+  size="lg"
+  className="
+    w-full sm:w-auto 
+    max-w-[90%] sm:max-w-none 
+    text-lg 
+    py-7 sm:py-6 
+    px-10 sm:px-12 
+    mt-4 
+    text-wrap 
+    font-extrabold 
+    text-white            
+  "
+  onClick={scrollToOffer}
+>
+  QUERO GARANTIR MEU CHÁ!
+</Button>
+
       </motion.div>
     </section>
   );
